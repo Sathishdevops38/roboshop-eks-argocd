@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Sathishdevops38/roboshop-eks-argocd.git
     targetRevision: main # Specifies the branch, tag, or commit to sync to
-    path: roboshop
+    path: roboshop-app
     directory:
       recurse: true
   destination:
